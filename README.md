@@ -63,11 +63,11 @@ Dataset is split into:
 3. Model Training
 SRCNN (Super-Resolution CNN)
 
-VDSR (Very Deep Super-Resolution)
+  VDSR (Very Deep Super-Resolution)
 
 
 
-5. Evaluation Metrics
+4. Evaluation Metrics
 Performance of the models was measured using two key metrics:
 
 

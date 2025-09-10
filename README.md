@@ -131,6 +131,7 @@ Deploy the system as a web application to assist doctors with real-time X-ray en
 
 
 Chest X-ray Pneumonia Dataset (Kaggle) → Download here (https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+
 Total ~3000 images (Normal + Pneumonia).
 
 

@@ -66,15 +66,15 @@ Deploy the system as a web application to assist doctors with real-time X-ray en
 
 # 🛠️ Tech Stack
 
-Programming Language: Python
-Frameworks: TensorFlow, PyTorch
-Libraries: NumPy, OpenCV, Matplotlib, Scikit-learn
-Evaluation Tools: PSNR, SSIM
+-Programming Language: Python
+-Frameworks: TensorFlow, PyTorch
+-Libraries: NumPy, OpenCV, Matplotlib, Scikit-learn
+-Evaluation Tools: PSNR, SSIM
 
 
 # 📌 Dataset
 
-Chest X-ray Pneumonia Dataset (Kaggle) → Download here
+Chest X-ray Pneumonia Dataset (Kaggle) → Download here (https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 Total ~3000 images (Normal + Pneumonia).
 
 Both original dataset and preprocessed dataset are stored locally (not uploaded to GitHub).

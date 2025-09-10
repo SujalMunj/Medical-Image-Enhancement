@@ -2,6 +2,8 @@
 # 🩻 Enhancing Medical Image Quality using Deep Learning
 
 
+
+
 ## 📌 Project Overview
 
 Medical imaging plays a crucial role in diagnosing diseases such as Tuberculosis, Pneumonia, and Lung Cancer.
@@ -10,7 +12,7 @@ Medical imaging plays a crucial role in diagnosing diseases such as Tuberculosis
 However, X-ray images often suffer from low resolution, noise, and poor clarity, making diagnosis difficult and sometimes inaccurate.
 
 
-## This project focuses on:
+* This project focuses on:
 
 Enhancing medical X-ray images using deep learning models (SRCNN & VDSR).
 
@@ -19,6 +21,8 @@ Improving diagnostic accuracy by generating super-resolved images.
 
 
 Extending the system to perform disease detection in later phases.
+
+
 
 
 ## 🎯 Objectives
@@ -33,6 +37,8 @@ Measure performance using PSNR and SSIM.
 
 
 Provide insights into how image enhancement can improve disease diagnosis.
+
+
 
 
 
@@ -71,6 +77,8 @@ Structural Similarity Index (SSIM) – measures structural similarity between en
 
 
 
+
+
 ## 📊 Results 
 
 * SRCNN: Achieved baseline improvement in resolution and reduced noise with low computation cost.
@@ -81,6 +89,8 @@ Structural Similarity Index (SSIM) – measures structural similarity between en
 
 
 VDSR achieved higher PSNR and SSIM scores, proving more effective for medical image enhancement.
+
+
 
 
 
@@ -98,6 +108,8 @@ Deploy the system as a web application to assist doctors with real-time X-ray en
 
 
 
+
+
 ## 🛠️ Tech Stack
 
 * Programming Language: Python
@@ -110,6 +122,8 @@ Deploy the system as a web application to assist doctors with real-time X-ray en
 
 
 * Evaluation Tools: PSNR, SSIM
+
+  
 
 
 ## 📌 Dataset

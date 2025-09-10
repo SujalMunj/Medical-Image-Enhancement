@@ -14,13 +14,13 @@ However, X-ray images often suffer from low resolution, noise, and poor clarity,
 
 * This project focuses on:
 
-Enhancing medical X-ray images using deep learning models (SRCNN & VDSR).
+   Enhancing medical X-ray images using deep learning models (SRCNN & VDSR).
 
 
-Improving diagnostic accuracy by generating super-resolved images.
+   Improving diagnostic accuracy by generating super-resolved images.
 
 
-Extending the system to perform disease detection in later phases.
+   Extending the system to perform disease detection in later phases.
 
 
 

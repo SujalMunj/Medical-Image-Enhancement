@@ -75,6 +75,7 @@ Performance of the models was measured using two key metrics:
 
 Peak Signal-to-Noise Ratio (PSNR) – assesses image clarity.
 Structural Similarity Index (SSIM) – measures structural similarity between enhanced and original images.
+
 ➡️ Error maps were also generated to visualize differences between predicted and ground-truth images.
 
 

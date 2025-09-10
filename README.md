@@ -61,9 +61,9 @@ Dataset is split into:
 
 
 3. Model Training
-SRCNN (Super-Resolution CNN)
+     SRCNN (Super-Resolution CNN)
 
-  VDSR (Very Deep Super-Resolution)
+     VDSR (Very Deep Super-Resolution)
 
 
 

@@ -73,10 +73,10 @@ Structural Similarity Index (SSIM) – measures structural similarity between en
 
 ## 📊 Results 
 
-SRCNN: Achieved baseline improvement in resolution and reduced noise with low computation cost.
+* SRCNN: Achieved baseline improvement in resolution and reduced noise with low computation cost.
 
 
-VDSR: Outperformed SRCNN by producing sharper, high-quality images, though requiring more computational resources.
+* VDSR: Outperformed SRCNN by producing sharper, high-quality images, though requiring more computational resources.
 
 
 
@@ -100,16 +100,16 @@ Deploy the system as a web application to assist doctors with real-time X-ray en
 
 ## 🛠️ Tech Stack
 
--Programming Language: Python
+* Programming Language: Python
 
 
--Frameworks: TensorFlow, PyTorch
+* Frameworks: TensorFlow, PyTorch
 
 
--Libraries: NumPy, OpenCV, Matplotlib, Scikit-learn
+* Libraries: NumPy, OpenCV, Matplotlib, Scikit-learn
 
 
--Evaluation Tools: PSNR, SSIM
+* Evaluation Tools: PSNR, SSIM
 
 
 ## 📌 Dataset

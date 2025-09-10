@@ -5,13 +5,19 @@
 # 📌 Project Overview
 
 Medical imaging plays a crucial role in diagnosing diseases such as Tuberculosis, Pneumonia, and Lung Cancer.
+
+
 However, X-ray images often suffer from low resolution, noise, and poor clarity, making diagnosis difficult and sometimes inaccurate.
 
 
 # This project focuses on:
 
 Enhancing medical X-ray images using deep learning models (SRCNN & VDSR).
+
+
 Improving diagnostic accuracy by generating super-resolved images.
+
+
 Extending the system to perform disease detection in later phases.
 
 

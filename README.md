@@ -144,8 +144,9 @@ Both original dataset and preprocessed dataset are stored locally (not uploaded 
 
 ## 👨‍💻 Team Members
 
-Prajyot Patil  → https://github.com/Prajyot114
+* Prajyot Patil  → https://github.com/Prajyot114
 
-Sujal Munj  → https://github.com/SujalMunj
+* Sujal Munj  → https://github.com/SujalMunj
 
-Komal Satam → https://github.com/KomalSatam
+* Komal Satam → https://github.com/KomalSatam
+

@@ -1,4 +1,4 @@
-# Medical-Image-Enhancement
+# DignoAid
 # 🩻 Enhancing Medical Image Quality using Deep Learning
 
 

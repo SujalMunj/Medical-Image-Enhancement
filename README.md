@@ -141,7 +141,7 @@ Total ~3000 images (Normal + Pneumonia).
 Both original dataset and preprocessed dataset are stored locally (not uploaded to GitHub).
 
 
-## 👨‍💻 Team Members
+## 👨‍💻 Team Members:
 
 * [Prajyot Patil](https://github.com/Prajyot114)
 

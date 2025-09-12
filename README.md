@@ -138,7 +138,6 @@ Chest X-ray Pneumonia Dataset (Kaggle) → Download here (https://www.kaggle.com
 Total ~3000 images (Normal + Pneumonia).
 
 
-
 Both original dataset and preprocessed dataset are stored locally (not uploaded to GitHub).
 
 

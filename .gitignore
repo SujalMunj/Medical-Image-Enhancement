@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Data / large artifacts
+SRCNN/Dataset/
+SRCNN/Test/
+SRCNN/results/
+SRCNN/static/uploads/
+SRCNN/static/results/
+SRCNN/train_*.h5
+SRCNN/checkpoints/**/train_*.h5
+SRCNN/checkpoints/**/*.h5
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/

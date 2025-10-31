@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DignoAid - AI-Powered X-ray Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <video autoplay muted loop id="background-video">
+        <source src="asset/vedio/x_ray.mp4" type="video/mp4">
+        <source src="asset/vedio/x_ray.webm" type="video/webm">
+    </video>
+
+    <header class="main-header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <span>DignoAid</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="upload.html">Upload</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="header-actions">
+                <a href="upload.html"><button class="start-analysis-btn">Start Analysis</button></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <h1>DignoAid</h1>
+                <h2>AI-Powered X-ray Enhancement & Disease Detection</h2>
+                <p>Transform medical imaging with cutting-edge artificial intelligence. Enhance X-ray quality, detect diseases accurately, and generate instant professional reports.</p>
+                <div class="hero-buttons">
+                    <a href="upload.html"><button class="start-analysis-btn">Start Analysis +</button></a>
+                    <a href="about.html"><button class="learn-more-btn">Learn More</button></a>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-microscope"></i>
+                        <h3>Super-Resolution AI</h3>
+                        <p>AI-powered image enhancement that increases resolution by 4x.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>CNN Classification</h3>
+                        <p>Advanced deep learning disease detection.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-file-medical"></i>
+                        <h3>Instant PDF Reports</h3>
+                        <p>Professional medical reports in seconds.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-heartbeat"></i>
+                    <span>DignoAid</span>
+                </a>
+                <p>Advanced AI technology for X-ray enhancement and medical disease detection. Empowering healthcare professionals with cutting-edge diagnostic tools.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="upload.html">Upload X-ray</a></li>
+                    <li><a href="results.html">View Results</a></li>
+                    <li><a href="reports.html">Generate Reports</a></li>
+                </ul>
+            </div>
+            <div class="footer-features">
+                <h3>Features</h3>
+                <ul>
+                    <li><a href="#">Super-Resolution AI</a></li>
+                    <li><a href="#">CNN Classification</a></li>
+                    <li><a href="#">Instant PDF Reports</a></li>
+                    <li><a href="#">Disease Detection</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2024 DignoAid. All rights reserved.</p>
+            <p>Made with ❤️ for healthcare</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

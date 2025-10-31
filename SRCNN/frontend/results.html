@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results - DignoAid</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <video autoplay muted loop id="background-video">
+        <source src="asset/vedio/x_ray.mp4" type="video/mp4">
+        <source src="asset/vedio/x_ray.webm" type="video/webm">
+    </video>
+
+    <header class="main-header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <span>DignoAid</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upload.html">Upload</a></li>
+                <li><a href="results.html" class="active">Results</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="header-actions">
+                <a href="upload.html"><button class="start-analysis-btn">Start Analysis</button></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="analysis-page container">
+            <div class="analysis-main">
+                <h2>Analysis Results</h2>
+                <div class="image-comparison">
+                    <div class="image-container">
+                        <i class="fas fa-eye"></i>
+                        <p>AI Enhanced X-ray Image</p>
+                        <span>4x Resolution</span>
+                    </div>
+                </div>
+                <div class="model-metrics">
+                    <div class="metric-item">
+                        <p>Resolution</p>
+                        <h4>4x improved</h4>
+                    </div>
+                    <div class="metric-item">
+                        <p>Clarity</p>
+                        <h4>87% enhanced</h4>
+                    </div>
+                    <div class="metric-item">
+                        <p>Noise Reduction</p>
+                        <h4>92% reduced</h4>
+                    </div>
+                </div>
+                <div class="model-metrics" style="margin-top: 2rem;">
+                    <div class="metric-item">
+                        <h4>PSNR</h4>
+                        <p>32.5 dB</p>
+                        <p style="font-size: 0.8rem; color: var(--light-text);">Peak Signal-to-Noise Ratio</p>
+                    </div>
+                    <div class="metric-item">
+                        <h4>SSIM</h4>
+                        <p>0.91</p>
+                        <p style="font-size: 0.8rem; color: var(--light-text);">Structural Similarity Index</p>
+                    </div>
+                </div>
+                <div class="disease-prediction">
+                    <h3>Disease Prediction Result</h3>
+                    <div class="prediction-box">
+                        <p>Model: **CheXNet 121-layer CNN**</p>
+                        <p>Prediction: <span style="color: var(--primary-color); font-weight: bold;">Pneumonia Positive (85%)</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="analysis-sidebar">
+                <div class="analysis-confidence" style="text-align: center;">
+                    <h2>Analysis Confidence</h2>
+                    <h1 style="color: var(--primary-color);">94.2%</h1>
+                    <p style="color: var(--light-text);">AI Confidence Score</p>
+                </div>
+                <div class="medical-findings" style="margin-top: 2rem;">
+                    <h3>Medical Findings</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Normal chest X-ray appearance (72.2%)</li>
+                        <li><i class="fas fa-exclamation-circle" style="color: yellow;"></i> Possible pneumonia (21.8%)</li>
+                        <li><i class="fas fa-exclamation-circle" style="color: red;"></i> Pleural effusion (6.0%)</li>
+                    </ul>
+                </div>
+                <div class="action-buttons" style="margin-top: 2rem;">
+                    <a href="reports.html"><button class="start-analysis-btn" style="width: 100%;">Generate PDF Report</button></a>
+                    <button style="width: 100%; margin-top: 1rem; background-color: #3e5064;">Download Images</button>
+                    <a href="upload.html"><button style="width: 100%; margin-top: 1rem; background-color: #3e5064;">Upload New X-ray</button></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-heartbeat"></i>
+                    <span>DignoAid</span>
+                </a>
+                <p>Advanced AI technology for X-ray enhancement and medical disease detection. Empowering healthcare professionals with cutting-edge diagnostic tools.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="upload.html">Upload X-ray</a></li>
+                    <li><a href="results.html">View Results</a></li>
+                    <li><a href="reports.html">Generate Reports</a></li>
+                </ul>
+            </div>
+            <div class="footer-features">
+                <h3>Features</h3>
+                <ul>
+                    <li><a href="#">Super-Resolution AI</a></li>
+                    <li><a href="#">CNN Classification</a></li>
+                    <li><a href="#">Instant PDF Reports</a></li>
+                    <li><a href="#">Disease Detection</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2024 DignoAid. All rights reserved.</p>
+            <p>Made with ❤️ for healthcare</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

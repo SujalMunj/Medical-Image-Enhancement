@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Reports - DignoAid</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <video autoplay muted loop id="background-video">
+        <source src="asset/vedio/x_ray.mp4" type="video/mp4">
+        <source src="asset/vedio/x_ray.webm" type="video/webm">
+    </video>
+
+    <header class="main-header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <span>DignoAid</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upload.html">Upload</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="reports.html" class="active">Reports</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="header-actions">
+                <a href="upload.html"><button class="start-analysis-btn">Start Analysis</button></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="report-page container">
+            <div class="report-main">
+                <h2>Medical Reports</h2>
+                <p style="color: var(--light-text); margin-bottom: 2rem;">Generate and manage professional X-ray analysis reports</p>
+                <div class="report-preview">
+                    <div class="report-header">
+                        <h3 style="color: var(--primary-color);">DignoAid Medical Report</h3>
+                        <span>ID: XRAY-2024-001</span>
+                    </div>
+                    <div class="report-details" style="font-size: 0.9rem; color: var(--light-text); margin-bottom: 2rem;">
+                        <p>Analysis Date: March 14, 2024</p>
+                        <p>Reviewed by: Dr. Sarah Chen</p>
+                    </div>
+
+                    <div class="report-section">
+                        <h3>AI Enhancement Summary</h3>
+                        <p>Original Resolution: 1024x1024px</p>
+                        <p>Enhanced Resolution: 2048x2048px</p>
+                        <p>Processing Time: <span style="color: var(--primary-color);">2.3 seconds</span></p>
+                        <p>Confidence Score: <span style="color: var(--primary-color);">94.2%</span></p>
+                    </div>
+
+                    <div class="report-section">
+                        <h3>Model Evaluation Metrics</h3>
+                        <p>PSNR: <span style="color: var(--primary-color);">32.5 dB</span></p>
+                        <p>SSIM: <span style="color: var(--primary-color);">0.91</span></p>
+                    </div>
+
+                    <div class="report-section">
+                        <h3>Clinical Findings</h3>
+                        <ul>
+                            <li>- Normal chest X-ray appearance</li>
+                            <li>- No acute cardiopulmonary abnormalities</li>
+                            <li>- Heart size and mediastinum appear normal</li>
+                            <li>- Lungs are clear bilaterally</li>
+                        </ul>
+                    </div>
+
+                    <div class="report-section">
+                        <h3>Recommendations</h3>
+                        <ul>
+                            <li>- No immediate action required.</li>
+                            <li>- Continue routine monitoring.</li>
+                            <li>- Follow up if symptoms persist.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="report-sidebar">
+                <h2>Report Actions</h2>
+                <div class="report-actions">
+                    <button class="download-btn"><i class="fas fa-download"></i> Download PDF</button>
+                    <button style="background-color: #3e5064;"><i class="fas fa-print"></i> Print Report</button>
+                    <button style="background-color: #3e5064;"><i class="fas fa-share-alt"></i> Share Securely</button>
+                    <button style="background-color: #3e5064;"><i class="fas fa-envelope"></i> Email Report</button>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <h2>Report Features</h2>
+                    <ul>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Professional medical formatting</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> AI enhancement details included</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Secure sharing options</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Print-ready format</li>
+                    </ul>
+                </div>
+                <div class="action-buttons" style="margin-top: 2rem;">
+                    <a href="results.html"><button style="width: 100%; background-color: #3e5064;">View Analysis</button></a>
+                    <a href="upload.html"><button style="width: 100%; margin-top: 1rem; background-color: #3e5064;">Upload New X-ray</button></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-heartbeat"></i>
+                    <span>DignoAid</span>
+                </a>
+                <p>Advanced AI technology for X-ray enhancement and medical disease detection. Empowering healthcare professionals with cutting-edge diagnostic tools.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="upload.html">Upload X-ray</a></li>
+                    <li><a href="results.html">View Results</a></li>
+                    <li><a href="reports.html">Generate Reports</a></li>
+                </ul>
+            </div>
+            <div class="footer-features">
+                <h3>Features</h3>
+                <ul>
+                    <li><a href="#">Super-Resolution AI</a></li>
+                    <li><a href="#">CNN Classification</a></li>
+                    <li><a href="#">Instant PDF Reports</a></li>
+                    <li><a href="#">Disease Detection</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2024 DignoAid. All rights reserved.</p>
+            <p>Made with ❤️ for healthcare</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

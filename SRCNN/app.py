@@ -5,7 +5,7 @@ from werkzeug.utils import secure_filename
 import cv2
 import numpy as np
 import torch
-from model import SRCNN
+from .model import SRCNN
 
 try:
     import pydicom

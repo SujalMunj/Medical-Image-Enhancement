@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const API_BASE = window.localStorage.getItem('API_BASE') || 'http://127.0.0.1:5000';
+    const API_BASE = window.localStorage.getItem('API_BASE') || 'https://medical-image-enhancement-2.onrender.com/';
     const uploadBox = document.querySelector('.upload-box');
 
     if (uploadBox) {
